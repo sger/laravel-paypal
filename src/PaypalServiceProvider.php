@@ -1,5 +1,14 @@
 <?php
 
+/*
+ * This file is part of Laravel Paypal.
+ *
+ * (c) Spiros Gerokostas <spiros.gerokostas@gmail.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 namespace Sger\Paypal;
 
 use Illuminate\Support\ServiceProvider;
@@ -20,7 +29,7 @@ class PaypalServiceProvider extends ServiceProvider
         $this->setupConfig();
     }
 
-        /**
+    /**
      * Setup the config.
      *
      * @return void

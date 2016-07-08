@@ -26,7 +26,7 @@ Sger\Paypal\PaypalServiceProvider::class
 php artisan vendor:publish
 ```
 
-This will create a `config/paypal.php` file in your app which contains two type of connection 'sandbox' and 'live'.
+This will create a `config/paypal.php` file in your app which contains two types of connection 'sandbox' and 'live'.
 
 ## Usage
 
@@ -82,7 +82,7 @@ try {
 }
 
 $approvalUrl = $payment->getApprovalLink();
-var_dump($approvalUrl);
+var_dump($approvalUrl); //redirect user
 ```
 
 ## License

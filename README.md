@@ -1,6 +1,11 @@
 Laravel Paypal
 =============
 
+[![Build Status](https://travis-ci.org/sger/laravel-paypal.svg?branch=master)](https://travis-ci.org/sger/laravel-paypal)
+[![Code Climate](https://codeclimate.com/github/sger/laravel-paypal/badges/gpa.svg)](https://codeclimate.com/github/sger/laravel-paypal)
+[![Test Coverage](https://codeclimate.com/github/sger/laravel-paypal/badges/coverage.svg)](https://codeclimate.com/github/sger/laravel-paypal/coverage)
+[![Issue Count](https://codeclimate.com/github/sger/laravel-paypal/badges/issue_count.svg)](https://codeclimate.com/github/sger/laravel-paypal)
+
 Laravel Paypal is a bridge for Laravel 5 using the [PHP SDK for PayPal RESTful APIs Package](https://github.com/paypal/PayPal-PHP-SDK).This package is inspired by [https://github.com/vinkla/vimeo](https://github.com/vinkla/vimeo).
 
 ## Installation

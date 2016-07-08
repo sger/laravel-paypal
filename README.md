@@ -82,7 +82,7 @@ try {
 }
 
 $approvalUrl = $payment->getApprovalLink();
-var_dump($approvalUrl); //redirect user
+// redirect user to the $approvalUrl
 ```
 
 ## License
